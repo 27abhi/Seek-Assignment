@@ -15,9 +15,11 @@ FEATURES:
 1. Filter by searching by name
 2. Filter by selecting continent
 3. Animations and shadow effects
+4. Fully responsive in any web and mobile resolution or layout
 
 PS:
-I could not finish the dark theme feature as I am very low on availabe time but I believe my tech skills can be duly judged by the quality of work I did to implement these features.
+I could not finish the dark theme & popup detail window features as I am very low on availabe time,
+but I believe my tech skills can be duly judged by the quality of work I did to implement these features.
 
 Regards & Thanks,
 Abhishek Kumar
