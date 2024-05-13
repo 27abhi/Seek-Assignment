@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(142, 209, 252);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.JobsContainerMain{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

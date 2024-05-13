@@ -1,0 +1,62 @@
+.FilterBarMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    height: fit-content;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    border-radius: 15pt;
+    box-shadow: 0px 10px 20px #00000020;
+    font-size: larger;
+    color: rgb(76, 76, 144);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15pt;
+    margin-right: 15pt;
+    
+}
+
+
+.searchBar{
+    margin-right: 20pt;
+    border-radius: 10pt;
+    width: 250pt;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    border-color:cornflowerblue;
+    border-width: 1pt;
+    padding-left: 15pt;
+    border-style:dotted;
+    transition: all .3s ease;
+    margin-bottom: 5pt;
+    margin-top: 5pt;
+    &:hover {
+        background-color: rgb(219, 201, 234);
+        color: rgb(255, 255, 255);
+      }
+}
+
+.filterDropdown{
+    font-weight: 700;
+    background-color: rgb(135, 120, 211);
+    color: #fff;
+    border-radius: 10pt;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    padding-left: 5pt;
+    border-color:cornflowerblue;
+    border-width: 1pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    transition: all .3s ease;
+    &:hover {
+        background-color: rgb(90, 73, 175);
+      }
+}
