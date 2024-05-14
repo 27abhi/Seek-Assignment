@@ -4,7 +4,7 @@ const FilterFunction = (actionType, searchWordOrRegion, countryData) => {       
   let filteredCountryData=[]
   if(actionType=='search'){                                                     //  Search bar filtering case
     let length=searchWordOrRegion.length
-    filteredCountryData = countryData.filter((elem)=>elem.name.common.substr(0, length)==searchWordOrRegion)
+    filteredCountryData = countryData.filter((elem)=>elem.name.common.substr(0, length).toLowerCase()==searchWordOrRegion.toLowerCase())
   
   }
   else{   
